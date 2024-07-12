@@ -242,7 +242,72 @@ nav button {
     justify-content: center;
     color: white;
     height: 80vh;
-    max-width: 70vw;
+    max-width: 80vw;
     margin: auto;
+}
 
+.faqbox {
+    gap: 15px;
+}
+
+
+.questions {
+    display: flex;
+    font-size: 18px;
+    background-color: #2d2d2d;
+    padding: 20px;
+    justify-content: space-between;
+    width: 70vw;
+    margin: 1vh;
+    cursor: pointer;
+    color: white;
+    transition: all 1s ease-out;
+}
+
+.questions:hover {
+    background-color: #545252;
+   
+}
+
+.faqbox img {
+    height: 3vh;
+}
+
+.faqbox h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+.answer {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    height: 50vh;
+    max-width: 80vw;
+    font-size: 14px;
+    margin: auto;
+}
+
+footer a {
+    color: rgba(255,255,255,0.7);;
+}
+
+footer span{
+    color: rgba(255,255,255,0.7);
+}
+
+.footer {
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 20px;
+
+}
+
+.ques {
+    font-size: 16px;
 }
